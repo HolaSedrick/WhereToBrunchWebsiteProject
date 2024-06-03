@@ -1,0 +1,133 @@
+<!-- Sedrick Neigbhors CIS-205-60 Intro to Web Development Semester Project 12/3/23 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Events</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Sedrick Neighbors">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@600&family=Sono&display=swap" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- Header -->
+    <header>
+      <img id="headerimg" src="images/headerimg.png" alt="HeaderImg">
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+      <ul>
+        <li><a href="Index.html">Home</a></li>
+        <li><a href="About_Me.html">About</a></li>
+        <li><a href="Where_To_Brunch.html">Where To Brunch</a></li>
+        <li><a href="Events.html">Events</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main Content Section -->
+    <main>
+      <h2 class="page-headings">Events</h2>
+      <p class="page-subheadings">Check out when and where we'll be having brunch next.</p>
+
+      <!-- Events Table -->
+      <table>
+        <caption>December 2023</caption>
+        <thead>
+          <tr>
+            <th>Sun</th>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thu</th>
+            <th>Fri</th>
+            <th>Sat</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>1</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>11</td>
+            <td>12</td>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+            <td>16</td>
+          </tr>
+          <tr>
+            <td>17</td>
+            <td>18</td>
+            <td>19</td>
+            <td>20</td>
+            <td>21</td>
+            <td>22</td>
+            <td>23</td>
+          </tr>
+          <tr>
+            <td>24</td>
+            <td>25</td>
+            <td>26</td>
+            <td>27</td>
+            <td>28</td>
+            <td>29</td>
+            <td>30</td>
+          </tr>
+          <tr>
+            <td>31</td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- Newsletter Section -->
+      <section class="newsletter-section">
+        <h2>Find Out Where We're Having Brunch Next</h2>
+        <p>Enter your name & email address to receive updates on where we'll be having our next brunch meetup.</p>
+        <form action="http://cis205.cis.sc4.edu/scripts/semprojdata.php" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <button type="submit">Subscribe</button>
+        </form>
+      </section>
+    </main>
+  </div>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; Sedrick Neighbors sneighbors@student.sc4.edu 2023</p>
+  </footer>
+
+</body>
+</html>

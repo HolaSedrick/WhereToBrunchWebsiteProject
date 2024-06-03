@@ -1,0 +1,75 @@
+<!-- Sedrick Neigbhors CIS-205-60 Intro to Web Development Semester Project 12/3/23 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Sedrick Neighbors">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@600&family=Sono&display=swap" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- Header -->
+    <header>
+      <img id="headerimg" src="images/headerimg.png" alt="HeaderImg">
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+      <ul>
+        <li><a href="Index.html">Home</a></li>
+        <li><a href="About_Me.html">About</a></li>
+        <li><a href="Where_To_Brunch.html">Where To Brunch</a></li>
+        <li><a href="Events.html">Events</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main content section -->
+    <main>
+      <h2 class="page-headings">Contact</h2>
+      <p class="page-subheadings">Please take time to complete the form below.<br></p>
+
+      <!-- Contact form -->
+      <form action="http://cis205.cis.sc4.edu/scripts/semprojdata.php" method="post">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="reason">Reason for Inquiry:</label>
+        <select id="reason" name="reason">
+          <option value="questions">Questions & Comments</option>
+          <option value="media">Media</option>
+          <option value="collaboration">Collaboration/Sponsorship</option>
+        </select>
+
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location">
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+  </div>
+
+  <!-- Footer section -->
+  <footer>
+    <p>&copy; Sedrick Neighbors sneighbors@student.sc4.edu 2023</p>
+  </footer>
+
+</body>
+</html>

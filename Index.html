@@ -1,0 +1,95 @@
+<!-- Sedrick Neigbhors CIS-205-60 Intro to Web Development Semester Project 12/3/23 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Sedrick Neighbors">
+  <link type="text/css" rel="stylesheet" href="stylesheet.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@600&amp;family=Sono&amp;display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- Header -->
+    <header>
+      <img id="headerimg" src="images/headerimg.png" alt="HeaderImg">
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+      <ul>
+        <li><a href="Index.html">Home</a></li>
+        <li><a href="About_Me.html">About</a></li>
+        <li><a href="Where_To_Brunch.html">Where To Brunch</a></li>
+        <li><a href="Events.html">Events</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main Content Section -->
+    <main>
+      <div class="welcome-section">
+        <h1>Welcome to Brunch On The Bluewater!</h1>
+        <p>Discover the best brunch spots around Port Huron, MI. Please join us for a delightful brunch experience.<br><br></p>
+      </div>
+      
+      <div class="three-column-container">
+        <div class="column">
+          <img src="images/pexels-cottonbro-studio-4877857.jpg" alt="Clear Drinking Glasses on Table">
+          <!-- Image Creator: cottonbro studio from Prexels - Clear Drinking Glasses on Table - 2020 -->
+          <h2><a href="Events.html">Meet For Brunch</a></h2>
+          <p>Find out when and where we're having brunch next.</p>
+        </div>
+        <div class="column">
+          <img src="images/pexels-tijana-drndarski-2635307.jpg" alt="Close-Up Photo Of Pancake On Top Of The Table">
+          <!-- Image Creator: Tijana Drndarski from Prexels - Close-Up Photo Of Pancake On Top Of The Table - 2019 -->
+          <h2><a href="Where_To_Brunch.html">Best Of Brunch</a></h2>
+          <p>My top 5 brunch spots around Port Huron, MI.</p>
+        </div>
+        <div class="column">
+          <img src="images/pexels-cliff-booth-4058316.jpg" alt="Woman Having Coffee and Rice Bowl">
+          <!-- Image Creator: Cliff Booth from Prexels - Woman Having Coffee and Rice Bowl - 2020 -->
+          <h2><a href="Contact.html">Get In Touch</a></h2>
+          <p>I'd love to hear from you!</p>
+        </div>
+      </div>
+      
+      <section class="recipe-of-the-week">
+        <h2 class="video-heading">Recipe of the Week</h2>
+        <p class="page-subheadings">Find out what we're cooking up this week!</p>
+        <div class="video-container">
+          <video controls autoplay>
+            <source src="videos/pexels-maksim-goncharenok-6161976.mp4" type="video/mp4">
+            <!-- Video Creator: Maksim Goncharenok from Prexels - Two Women Preparing food Together - 2020 -->
+          </video>
+        </div>
+      </section>
+
+      <!-- Newsletter Section -->
+      <section class="newsletter-section">
+        <h2>Find Out Where We're Having Brunch Next</h2>
+        <p>Enter your name & email address to receive updates on where we'll be having our next brunch meetup.</p>
+        <form action="http://cis205.cis.sc4.edu/scripts/semprojdata.php" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <button type="submit">Subscribe</button>
+        </form>
+      </section>
+    </main>
+  </div>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; Sedrick Neighbors sneighbors@student.sc4.edu 2023</p>
+  </footer>
+
+</body>
+</html>
