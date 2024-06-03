@@ -12,4 +12,5 @@ Index (Desktop, Tablet, and Phone): <br/>
 <p align="center">
 About (Desktop, Tablet, and Phone):: <br/>
 <img src="https://i.imgur.com/hreUug1.png" height="80%" width="80%" alt="WhereToBrunchIndexOverview"/>
-
+<img src="https://i.imgur.com/rOozjsa.png" height="80%" width="80%" alt="WhereToBrunchIndexOverview"/>
+<img src="https://i.imgur.com/isFrZwA.png" height="80%" width="80%" alt="WhereToBrunchIndexOverview"/>
