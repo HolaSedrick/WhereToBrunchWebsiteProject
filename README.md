@@ -8,7 +8,6 @@ Index (Desktop, Tablet, and Phone): <br/>
 <img src="https://i.imgur.com/IBD7b7x.png" height="80%" width="80%" alt="WhereToBrunchIndexOverview"/>
 <img src="https://i.imgur.com/wfpoRif.png" height="80%" width="80%" alt="WhereToBrunchIndexOverview"/>
 <img src="https://i.imgur.com/hgPPciJ.png" height="80%" width="80%" alt="WhereToBrunchIndexOverview"/>
-<br />
 <p align="center">
 About (Desktop, Tablet, and Phone):: <br/>
 <img src="https://i.imgur.com/hreUug1.png" height="80%" width="80%" alt="WhereToBrunchIndexOverview"/>
